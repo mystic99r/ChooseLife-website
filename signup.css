@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background-image: url('images/nurse.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.btn {
+    height: 38px;
+    opacity: 0;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    padding: 0px !important;
+    background-color: rgb(2, 67, 102);
+}
+
+.navbar img {
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+
+.navbar-nav {
+    width: max-content;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li .nav-link {
+    color: rgb(248, 247, 247) !important;
+    font-size: 28px;
+    font-weight: 600;
+    float: right;
+}
+
+.navbar-nav li .nav-link:hover {
+    border-radius: 15px;
+    background-color: rgb(195, 182, 3);
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30 px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.d-flex {
+    margin-top: 6px;
+}
+
+.dropdown {
+    display: block;
+}
+
+.dropdown .dropimg {
+    font-size: 28px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.dropdown:hover .dropimg {
+    background-color: rgb(38, 40, 40);
+    border-radius: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 50px;
+    position: absolute;
+    background-color: #636464;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    text-align: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 22;
+}
+
+.dropdown-content a:hover {
+    cursor: pointer;
+    background-color: rgb(9, 121, 201);
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    background-image: url('images/sign2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.message {
+    width: 80%;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+
+.contain {
+    background-image: url('images/sign5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 8px solid #000;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 280px;
+    margin-right: 280px;
+    box-shadow: 10px 10px 20px rgb(11, 11, 11);
+}
+
+.row {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.col {
+    display: inline-block;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.txt {
+    text-align: right;
+}
+
+input[type="text"] {
+    padding: 6px 20px;
+    border: 2px solid black;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin-left: 30px;
+}
+
+textarea {
+    border: 2px solid black;
+}
+
+input[type="email"] {
+    padding: 6px 20px;
+    border: 2px solid black;
+}
+
+input[type="password"] {
+    padding: 6px 20px;
+    border: 2px solid black;
+}
+
+input[type="password"] {
+    padding: 6px 20px;
+    border: 2px solid black;
+}
+
+.select-tag select {
+    width: 206.4px;
+    padding: 6px 20px;
+    border: 2px solid black;
+}
+
+.box {
+    background-color: white;
+}
+
+input[type="submit"] {
+    padding: 8px 20px;
+    border-radius: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(222, 219, 219);
+    border: none;
+    font-weight: 600;
+    transition: 1s;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, rgb(209, 243, 234), rgb(7, 189, 171));
+    border: none;
+    box-shadow: 10px 10px 10px #000;
+}
